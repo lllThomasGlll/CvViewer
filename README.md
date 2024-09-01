@@ -15,7 +15,7 @@ Verificar si tienes instalado node.js para comandos npm
 node -v
 ```
 
-Sino 
+Si no 
 
 ```sh
 npm install
