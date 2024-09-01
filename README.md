@@ -1,29 +1,34 @@
 # CvViewer
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta plantilla debería ayudarle a comenzar a desarrollar con Vue 3 en Vite.
 
-## Recommended IDE Setup
+## Configuración IDE recomendada
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+[VSCode](https://code.visualstudio.com/)
 
-## Customize configuration
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Configuración del proyecto
 
-## Project Setup
+Verificar si tienes instalado node.js para comandos npm
+
+```sh
+node -v
+```
+
+Sino 
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Copilacion de VITE, Solo la primera vez!!!
+
+```sh
+npm i
+```
+
+### Copilacion del codigo modo dev
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
