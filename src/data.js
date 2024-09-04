@@ -31,7 +31,7 @@ export const data = [
     image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
-    name: "Person Two",
+    name: "Clara",
     age: 28,
     profession: "Data Scientist",
     bio: "Specialized in data analysis and machine learning.",
