@@ -66,9 +66,9 @@ export const data = [
         timeExperience: "1.6 años",
       },
       {
-        companyName: "Company Six",
-        position: "Project Manager",
-        timeExperience: "3 years",
+        companyName: "Gramalote Mineria",
+        position: "Tecnico Ambiental",
+        timeExperience: "2 Años",
       },
     ],
     skills: [{ Language: "C#" }, { Language: "" }],
