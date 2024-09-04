@@ -55,15 +55,15 @@ export const data = [
     image: "https://randomuser.me/api/portraits/women/2.jpg",
   },
   {
-    name: "Person Three",
-    age: 35,
-    profession: "Product Manager",
-    bio: "Expert in product management and agile methodologies.",
+    name: "Juan Pablo Hoyos Restrepo",
+    age: 27,
+    profession: "Operario",
+    bio: "Operario de logistica con 1 año y medio de experiencia, encargado de despachos de ventas por internet y servicio al cliente en tiendas de retiro de productos, polivalente para diversas tareas como despachar pisos ceramicos, bajar productos altillados y manejar el monta carga..",
     experience: [
       {
-        companyName: "Company Five",
-        position: "Product Manager",
-        timeExperience: "5 years",
+        companyName: "HOMECENTER",
+        position: "Operario",
+        timeExperience: "1.6 años",
       },
       {
         companyName: "Company Six",
@@ -71,10 +71,10 @@ export const data = [
         timeExperience: "3 years",
       },
     ],
-    skills: [{ Language: "Agile" }, { Language: "Scrum" }],
+    skills: [{ Language: "C#" }, { Language: "" }],
     contact: {
-      email: "personthree@example.com",
-      number: "345-678-9012",
+      email: "juanchoctra@gmail.com",
+      number: "3115300411",
     },
     image: "https://randomuser.me/api/portraits/men/2.jpg",
   },
