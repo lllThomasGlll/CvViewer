@@ -1,12 +1,14 @@
 <template>
   <div class="cv-container">
     <div class="cv-header">
+      <!-- Uso de v-bind (:) para enlazar un atributo HTML dinámicamente -->
       <img
         :src="currentPerson.image"
         alt="Profile Picture"
         class="profile-picture"
       />
       <div class="header-text">
+        <!-- Uso de {{}} para mostrar texto reactivo dinámicamente -->
         <h1>{{ currentPerson.name }}</h1>
         <h2>{{ currentPerson.profession }}</h2>
       </div>
@@ -20,6 +22,7 @@
     <div class="cv-section">
       <h3>Experiencia</h3>
       <ul>
+        <!-- Directiva v-for -->
         <li v-for="(job, index) in currentPerson.experience" :key="index">
           <strong>{{ job.position }}</strong> en {{ job.companyName }} ({{
             job.timeExperience
@@ -43,6 +46,7 @@
       <p>Teléfono: {{ currentPerson.contact.number }}</p>
     </div>
 
+    <!-- Directiva v-on -->
     <button class="cv-button" @click="nextPerson">
       Siguiente ({{ index + 1 }}/{{ people.length }})
     </button>
